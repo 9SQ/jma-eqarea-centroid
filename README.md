@@ -6,6 +6,8 @@ Centroid List of Earthquake Information Area from JMA(Japan Meteorological Agenc
 [気象庁が電文などで使用する区域名](http://www.data.jma.go.jp/svd/eqev/data/joho/shindo-name.html)・区域コードと、その区域の重心(緯度,経度)を対応づけたリストです。  
 気象庁防災情報XML電文の**震度速報**、**震源・震度に関する情報**などから得られる区域別の震度(数値)情報を、地図上の当該区域の上にマッピングしたりできます。
 
+震度観測点のリストは更新頻度が高い(おおよそ3〜4回/年)ため当リポジトリには含めていません。必要な場合は [@9SQ/jma-intensity-stations](https://github.com/9SQ/jma-intensity-stations) を実行することで生成できます。
+
 ### ファイル
 
 * jma\_area\_centroid.csv : 地震情報／細分区域レベル(188区域)
